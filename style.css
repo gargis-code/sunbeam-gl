@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.button-link {
+    display: block;
+}
+
+.image-button {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.image-button:hover {
+    transform: scale(1.05);
+}
